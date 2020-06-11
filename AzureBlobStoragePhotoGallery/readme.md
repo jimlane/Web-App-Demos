@@ -13,7 +13,7 @@ page_type: sample
 
 This sample application creates a web photo gallery that allows you to host and view images through a .NET web frontend. The code sample also includes functionality for deleting images. At the end, you have the option of deploying the application to Azure.
 
-![Azure Blob Storage Photo Gallery Web Application Sample .NET](./images/photo-gallery.png)
+![Azure Blob Storage Photo Gallery Web Application Sample .NET](../images/photo-gallery.png)
 
 ## Technologies used
 - ASP.NET MVC 5
