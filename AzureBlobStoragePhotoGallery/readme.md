@@ -39,19 +39,29 @@ Azure Blob Storage Photo Gallery Web Application using ASP.NET MVC 5. The sample
 
 2. Retrieve the STORAGE ACCOUNT NAME and PRIMARY ACCESS KEY (or SECONDARY ACCESS KEY) values from the Keys blade of your Storage account in the Azure Preview portal. For more information on obtaining keys for your Storage account refer to [View, copy, and regenerate storage access keys](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#view-copy-and-regenerate-storage-access-keys)
 
-2. In the **Web.config** file, located in the project root, find the **StorageConnectionString** app setting and replace the placeholder values with the values obtained for your account.
+3. In the **Web.config** file, located in the project root, find the **StorageConnectionString** app setting and replace the placeholder values with the values obtained for your account.
 
   <add key="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=[Enter Your Storage AccountName];AccountKey=[Enter Your Storage AccountKey]" />
+  
+### From Visual Studio
 
-3. In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**
+- In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**
 
-4. Using the Publish Website dialog, select **Microsoft Azure Web Apps**
+- Using the Publish Website dialog, select **Microsoft Azure Web Apps**
 
-5. In the next dialog, either select an existing web app, or follow the prompts to create a new web application. Note: If you choose to create a web application, the Web App Name chosen must be globally unique.
+- In the next dialog, either select an existing web app, or follow the prompts to create a new web application. Note: If you choose to create a web application, the Web App Name chosen must be globally unique.
 
-6. Once you have selected the web app, click **Publish**
+- Once you have selected the web app, click **Publish**
 
-7. After a short time, Visual Studio will complete the deployment and open a browser with your deployed application.
+- After a short time, Visual Studio will complete the deployment and open a browser with your deployed application.
+
+### From the Azure Portal
+
+- [Create](https://docs.microsoft.com/en-us/azure/app-service/app-service-plan-manage) a new Web App 
+
+- When the deployment process finishes select Go To Resource, the select Deployment Center from the navigation menu
+
+- Follow the instructions [here](https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git) to deploy the code for this project from a local git of this project
 
 For additional ways to deploy this web application to Azure, please refer to the [Deploy a web app in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/web-sites-deploy/) article which includes information on using Azure Resource Manager (ARM) Templates, Git, MsBuild, PowerShell, Web Deploy, and many more.
 
