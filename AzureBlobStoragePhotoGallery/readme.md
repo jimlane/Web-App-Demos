@@ -1,20 +1,14 @@
 This is an updated version of the original Blob Storage Photo Gallery available in the Azure Samples repo. This version updates various libraries and .Net Framework to more recent versions, such as substituting Microsoft.Azure.Storage assembly for the now deprecated WindowsAzure.Storage.
 
----
-languages:
-- csharp
-products:
-- azure
-- azure-storage
-page_type: sample
----
-
 # .NET Photo Gallery Web Application Sample with Azure Blob Storage
 
 This sample application creates a web photo gallery that allows you to host and view images through a .NET web frontend. The code sample also includes functionality for deleting images. At the end, you have the option of deploying the application to Azure.
 
 ![Azure Blob Storage Photo Gallery Web Application Sample .NET](../images/photo-gallery.png)
 
+## Languages Used
+- C#
+- JavaScript
 ## Technologies used
 - ASP.NET MVC 5
 - .NET 4.7
