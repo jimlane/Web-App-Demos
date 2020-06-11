@@ -1,4 +1,4 @@
-This is an updated version of the original Blob Storage Photo Gallery available in the Azure Samples repo. This version updates various libraries and .Net Framework to more recent versions, such as substituting Microsoft.Azure.Storage assembly for the now deprecated WindowsAzure.Storage.
+*This is an updated version of the original Blob Storage Photo Gallery available in the Azure Samples repo. This version updates various libraries and .Net Framework to more recent versions, such as substituting Microsoft.Azure.Storage assembly for the now deprecated WindowsAzure.Storage*
 
 # .NET Photo Gallery Web Application Sample with Azure Blob Storage
 
